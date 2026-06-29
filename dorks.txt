@@ -1,2 +1,43 @@
 to find hidden files:- 
 site:example[.]com ext:log | ext:txt | ext:conf | ext:cnf | ext:ini | ext:env | ext:sh | ext:bak | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:htaccess | ext:json
+
+site:*.example.com intext:"internal use only" filetype:pdf
+site:*.example.com intext:"not for public release" filetype:pdf
+site:*.example.com intext:"classified" filetype:pdf
+
+
+intext:"confidential"
+
+intext:"internal use only"
+
+intext:"not for public release"
+
+intext:"proprietary"
+
+intext:"restricted"
+
+intext:"do not distribute"
+
+intext:"sensitive"
+
+intext:"for official use only"
+
+intext:"classified"
+
+intext:"private and confidential"
+
+intext:"company confidential"
+
+intext:"unauthorized access prohibited"
+
+intext:"draft - not for circulation"
+
+intext:"employee handbook"
+
+intext:"financial report"
+
+intext:"strategy document"
+
+intext:"internal memo"
+
+intext:"sensitive but classified"
